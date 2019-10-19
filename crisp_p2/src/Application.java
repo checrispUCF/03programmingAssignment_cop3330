@@ -36,19 +36,5 @@ public class Application {
         System.out.println("The next month's balance for User 2:");
         saver2.calculateMonthlyInterest();
         System.out.printf("%.2f\n", saver2.newSavingsBalance());
-
-
-        /*System.out.println("User 1:");
-        for (i = 0; i < months; i++) {
-            saver1.calculateMonthlyInterest();
-            System.out.printf("Month %d: %.2f\n", i + 1, saver1.newSavingsBalance());
-        }
-
-        System.out.println();
-        System.out.println("User 2:");
-        for (i = 0; i < months; i++) {
-            saver2.calculateMonthlyInterest();
-            System.out.printf("Month %d: %.2f\n", i + 1, saver2.newSavingsBalance());
-        }*/
     }
 }
